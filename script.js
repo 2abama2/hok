@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 {
                     h: 'Прародитель племен',
-                    p: 'Крупнейшие племена (потомки): Бугу, Сарыбагыш, Солто, Саяк, Черик, Багыш, Конурат, Жедигер, Азык <span style="font-size: 0.8em; opacity: 0.7;">(для ответа на викторине достаточно запомнить любые два)</span>.'
+                    p: 'Крупнейшие племена (потомки): Бугу, Сарыбагыш, Солто, Саяк, Черик, Багыш, Конурат, Жедигер, Азык.'
                 }
             ]
         },
@@ -274,4 +274,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial slide display after a short delay to allow DOM to settle
     setTimeout(() => goToSlide(0), 100);
 });
+
 

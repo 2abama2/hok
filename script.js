@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             type: 'thanks',
             title: 'Спасибо за внимание!',
-            bg: 'flag.png'
+            bg: 'https://cdn.discordapp.com/attachments/975057449222541312/1475481080348938384/993fa18260e1878613557df2b7860103.png?ex=699ef5d6&is=699da456&hm=65b70049d340248d623f99988ce59cf0c62ae7875876c895da79bf1536db46ff&'
         }
     ];
 
@@ -274,3 +274,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial slide display after a short delay to allow DOM to settle
     setTimeout(() => goToSlide(0), 100);
 });
+

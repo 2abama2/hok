@@ -180,6 +180,10 @@ p {
     gap: 2rem;
 }
 
+.grid-2x2>*:last-child:nth-child(odd) {
+    grid-column: span 2;
+}
+
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
